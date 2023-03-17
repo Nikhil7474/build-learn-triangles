@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Josefin+Sans:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+:root{
+    --primary-color:rgb(73, 73, 238);
+    --white-shade:rgb(238, 238, 238);
+    --gray-shade:rgb(83, 83, 83);
+}
+
+.head{
+    background-color: var(--primary-color);
+    padding: .5rem 1rem;
+}
+.logo{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: var(--white-shade);
+}
+.lists{
+    display: flex;
+    gap: 1rem;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+    margin-top: .5rem;
+}
+.lists a{
+    text-decoration: none;
+    color: var(--white-shade);
+}
+
+.container{
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+}
+.container h1{
+    margin-top: 2rem;
+    color: var(--gray-shade);
+}
+.container p{
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--gray-shade);
+}
+.container label{
+    margin-bottom: -1.5rem;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+.container input{
+    border:  2px solid var(--primary-color);
+    outline-color: var(--primary-color);
+    width: 16rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    font-weight: bold;
+    color: var(--gray-shade);
+}
+.is-triangle-btn{
+    padding: 0.8rem;
+    background-color: var(--primary-color);
+    border: 0;
+    font-size: 1rem;
+    color: var(--white-shade);
+    cursor: pointer;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+.is-triangle-btn:hover{
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--gray-shade);
+    font-weight: bold;
+}
+#output{
+    color: var(--gray-shade);
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+}
+.question-container{
+    margin-bottom: 4rem;
+}
+.question-container p{
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 1.5rem;
+}
+
+.question-container label{
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left: 1rem;
+    color: var(--gray-shade);
+}
+
+.question-container input{
+    width: 1rem;
+}
